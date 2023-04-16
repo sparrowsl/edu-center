@@ -1,9 +1,7 @@
+import Header from "./components/Header.jsx";
+
 function App() {
-	return (
-		<header class="font-opensans h-300px header-bg">
-			<p>Edit src/App.jsx and save to reload.</p>
-		</header>
-	);
+	return <Header />;
 }
 
 export default App;

@@ -7,6 +7,7 @@ export default defineConfig({
 	plugins: [
 		solidPlugin(),
 		UnoCSS({
+			shortcuts: { container: "max-w-5xl mx-auto" },
 			rules: [
 				[
 					"header-bg",

@@ -1,8 +1,6 @@
-## Usage
+## Edu Center
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
-
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0c8d4dba-e51e-434e-8c1a-dccc7a3ac7c7/deploy-status)](https://app.netlify.com/sites/edu-centerr/deploys)
 
 ```bash
 $ npm install # or pnpm install or yarn install
@@ -17,7 +15,7 @@ In the project directory, you can run:
 ### `npm dev` or `npm start`
 
 Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
 The page will reload if you make edits.<br>
 
