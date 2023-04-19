@@ -5,6 +5,7 @@ import {
 	presetWebFonts,
 	transformerVariantGroup,
 } from "unocss";
+import features from "./src/utils/features.js";
 
 export default defineConfig({
 	shortcuts: { container: "max-w-5xl mx-auto" },
@@ -28,4 +29,5 @@ export default defineConfig({
 		presetWebFonts({ provider: "google", fonts: { opensans: "Open Sans" } }),
 	],
 	transformers: [transformerVariantGroup()],
+	safelist: [...features.map((feature) => `i-${feature.icon}`)],
 });
