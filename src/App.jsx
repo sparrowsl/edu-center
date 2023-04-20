@@ -1,13 +1,13 @@
+import Faculty from "./components/Faculty.jsx";
 import Features from "./components/Features.jsx";
 import Header from "./components/Header.jsx";
 
-function App() {
+export default function App() {
 	return (
 		<>
 			<Header />
 			<Features />
+			<Faculty />
 		</>
 	);
 }
-
-export default App;
