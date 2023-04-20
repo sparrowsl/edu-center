@@ -11,8 +11,8 @@ export default function Courses() {
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo. `}
         />
 
-        <section class="grid grid-cols-2 mt-15 gap-20">
-          <img src="/assets/building.jpg" alt="" class="" />
+        <section class="grid grid-cols-2 mx-4 mt-15 gap-10 md:gap-20">
+          <img src="/assets/building.jpg" class="border border-teal p-1" />
           <Accordions />
         </section>
       </article>
