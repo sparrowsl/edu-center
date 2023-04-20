@@ -14,7 +14,7 @@ export default defineConfig({
 			"header-bg",
 			{
 				"background-image":
-					"linear-gradient(rgba(38, 57, 88, 0.89), rgba(38, 57, 88, 0.89)), url('/src/assets/header.jpg')",
+					"linear-gradient(rgba(38, 57, 88, 0.89), rgba(38, 57, 88, 0.89)), url('/assets/header.jpg')",
 			},
 		],
 	],

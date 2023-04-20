@@ -1,10 +1,8 @@
-import image from "../../assets/faculty/1.jpg";
-
 export default function FacultyCard(props) {
 	return (
 		<>
 			<figure class="text-left">
-				<img src={image} class="border-teal border rounded" />
+				<img src={props.faculty.image} class="border-teal border rounded" />
 
 				<figcaption class="mt-4">
 					<h2 class="font-bold text-xl text-gray-700 whitespace-nowrap">{props.faculty.title}</h2>
