@@ -13,7 +13,7 @@ export default function Features() {
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo. `}
 				/>
 
-				<section class="mt-15 grid px-4 gap-10 md:(grid-cols-2 gap-16) lg:(grid-cols-3 p-0)">
+				<section class="mt-15 grid px-10 gap-10 md:(grid-cols-2 gap-16 px-4) lg:(grid-cols-3 p-0)">
 					<For each={features}>{(feature) => <FeatureCard feature={feature} />}</For>
 				</section>
 			</article>

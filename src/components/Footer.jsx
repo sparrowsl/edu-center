@@ -8,7 +8,7 @@ export default function Footer() {
           <p>Email: info@yourdomain.com</p>
         </div>
         <small class="text-white absolute bottom-0 mb-5 text-xs italic">
-          Copyright&copy; 2023 - {new Date().getFullYear()} | All rights reserved. | Made by
+          Copyright&copy; 2023 - {new Date().getFullYear()} | Made by
           <a href="https://benthorpe.dev" class="text-teal ml-1 font-bold tracking-wider">Sparrow</a>
         </small>
       </footer>

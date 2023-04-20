@@ -21,8 +21,10 @@ export default function Header() {
 					<p class="font-bold text-4xl mb-5 animate-pulse">
 						EduCenter
 					</p>
-					<h3 class="font-normal text-xl tracking-widest">DELIVERING QUALITY EDUCATION</h3>
-					<h1 class="font-extrabold border-gray-300 border-b-5 mt-2 pb-5 text-5xl">{getWord()}</h1>
+					<h3 class="font-normal md:text-xl tracking-widest">DELIVERING QUALITY EDUCATION</h3>
+					<h1 class="font-extrabold border-(b-5 gray-300) mt-2 pb-2 mx-3 text-3xl md:(text-5xl pb-5)">
+						{getWord()}
+					</h1>
 					<p class="bg-white flex font-bold mx-auto mb-5 tracking-wider w-fit py-2 px-6 right-0 bottom-0 animate-pulse left-0 text-teal-600 gap-3 capitalize italic absolute items-center">
 						<i class="text-3xl i-mdi:book-open-page-variant-outline"></i>
 						Welcome to EduCenter
